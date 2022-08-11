@@ -6,11 +6,10 @@ A new Flutter project.
 
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+For this application use API client with all necessary data about weather.
+[MetaWeather API](https://www.metaweather.com/)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+We'll be focusing on two endpoints:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- /api/location/search/?query=$city to get a locationId for a given city name
+- /api/location/$locationId to get the weather for a given locationId
